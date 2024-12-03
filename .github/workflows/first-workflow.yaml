@@ -17,6 +17,7 @@ jobs:
       - name: MacOs software version
         run: sw_vers
   dependent-job:
+    needs: run-shell-commands
     runs-on: windows-latest
     steps:
       - name: echo string in windows
