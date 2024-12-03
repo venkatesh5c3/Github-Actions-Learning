@@ -23,4 +23,4 @@ jobs:
       - name: echo string in windows
         run: Write-output "Hellow windows"
       - name: Error
-        run: command_does_not_existss
+        run: command_does_not_exists
